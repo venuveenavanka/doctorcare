@@ -789,10 +789,14 @@ footer .social-links {
   }
 
   /* ----- TESTIMONIALS ---- */
-  
+  #testimonials {
+    padding-block: 9rem;
+  }
+
   /* ----- BRANDS ---- */
   #brands {
-    height: 37.4rem;
+    height: 24rem;
+    padding-block: 2rem;
   }
 
   /* ----- CONTACT ---- */
