@@ -367,7 +367,7 @@ body.menu-expanded button path {
 
 #services .card {
   padding: 2.4rem;
-  text-align: justify;
+  text-align: left;
 
   background: white;
 
@@ -381,7 +381,7 @@ body.menu-expanded button path {
 
 /* ----- ABOUT ---- */
 #about {
-  text-align: justify;
+  text-align: left;
   background-color: var(--brand-beige);
 }
 
@@ -393,6 +393,81 @@ body.menu-expanded button path {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 }
+
+/* ----- swiper config ---- */
+.swiper-slide {
+  height: auto;
+  padding: 4rem 1rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-color);
+}
+
+/* ----- TESTIMONIALS ---- */
+#testimonials {
+  background-color: white;
+}
+
+#testimonials .testimonial blockquote {
+  padding: 3.2rem;
+  box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.4rem;
+
+  background-color: var(--brand-beige);
+}
+
+#testimonials .testimonial blockquote p {
+  line-height: 150%;
+  color: var(--paragraph);
+  text-align: left;
+  text-indent: 4rem;
+
+  position: relative;
+
+  margin-bottom: 2rem;
+}
+
+#testimonials .testimonial blockquote span {
+  font: 700 4.5rem serif;
+  color: var(--primary-color);
+
+  position: absolute;
+
+  top: -1rem;
+  left: -4rem;
+}
+
+#testimonials .testimonial blockquote cite {
+  font-weight: 700;
+  line-height: 2.8rem;
+  color: var(--primary-color);
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+}
+
+#testimonials .testimonial blockquote cite img {
+  width: 4.2rem;
+  object-fit: cover; /* not every image will fit, so this handle this */
+  clip-path: circle(); /* just turning into a circle */
+
+  margin-right: 1.6rem;
+}
+
+/* ----- BRANDS ---- */
+#brands {
+  background-color: white;
+}
+
+#brands h3 {
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+
+  margin-bottom: 4rem;
+}
+
 
 /* ----- CONTACT ---- */
 #contact {
@@ -530,7 +605,7 @@ footer .social-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 65%;
   }
 
   nav#navig .menu ul:nth-child(1) {
@@ -711,6 +786,13 @@ footer .social-links {
 
   #about .content p {
     padding-bottom: 0;
+  }
+
+  /* ----- TESTIMONIALS ---- */
+  
+  /* ----- BRANDS ---- */
+  #brands {
+    height: 37.4rem;
   }
 
   /* ----- CONTACT ---- */
