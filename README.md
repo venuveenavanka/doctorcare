@@ -12,7 +12,7 @@ A project developed during the Next Level Week 8 with RocketSeat. Made for a fic
 <br>
 
 <p align="center">
-  <a target="_blank" href="https://phillyagyu.github.io/doctorcare/">
+  <a href="https://phillyagyu.github.io/doctorcare/">
     <img src=".github/preview.png" width="100%">
   </a>
 </p>
