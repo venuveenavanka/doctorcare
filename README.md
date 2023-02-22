@@ -25,4 +25,4 @@ This project was developed with the following technologies:
 
 ## 🔖 Layout
 
-You can check the project's layout through [THIS LINK](https://www.figma.com/community/file/1102912263666619803). It's necessary a figma account [Figma](https://figma.com) to access it.
+You can check the project's layout through [THIS LINK](https://www.figma.com/community/file/1102912263666619803). It's necessary a [Figma](https://figma.com) account to access it.
